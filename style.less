@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,500,700,900&display=swap&subset=cyrillic,cyrillic-ext');
+@import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
 
 body {
+
+  background-image: url("img/vectorsbackground.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
   font-family: 'Roboto', sans-serif;
+
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -40,13 +45,13 @@ header {
       justify-content: space-between;
 
       li {
-        font-weight: 200;
+        font-weight: 100;
         font-size: 22px;
         display: flex;
         justify-content: center;
         align-items: center;
         background: #3D4683;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
         flex-basis: 31%;;
         height: 62px;
@@ -97,9 +102,211 @@ header {
 }
 
 .mainContent {
-
+  margin-top: -7vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+
+    width: 900px;
+
+  }
+
+  .goodsContainer {
+    display: flex;
+    width: 70vw;
+    background: #FFFFFF;
+    box-shadow: 0 4px 50px rgba(157, 156, 203, 0.51);
+    border-radius: 20px;
+    margin-bottom: 34px;
+
+    .goodsImg {
+      display: flex;
+      align-items: center;
+      padding: 30px;
+      flex-basis: 36%;
+
+      img {
+        width: 95%;
+      }
+    }
+
+    .goodsText {
+      display: flex;
+      flex-basis: 64%;
+      flex-direction: column;
+      align-self: flex-start;
+      margin-top: 1vw;
+
+      h2 {
+        font-weight: 100;
+        font-size: 30px;
+      }
+
+      .goodsDescription {
+
+        padding: 5px;
+        font-weight: 100;
+        font-size: 25px;
+        line-height: 29px;
+        list-style-image: url("img/icon/eclipse.svg");
+      }
+
+      .priceText {
+        margin: 0 0 25px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        background: rgba(102, 117, 255, 0.13);
+        border-radius: 10px;
+        width: max-content;
+        padding: 10px 20px;
+      }
+    }
+  }
 }
+
+footer {
+  background-color: #3D4683;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+
+  .copyright {
+    color: white;
+    align-self: center;
+
+  }
+
+  .footerLink, .footerContacts {
+
+    li {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 30px;
+
+      }
+    }
+      }
+
+  .footerContacts {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+
+    li {
+      margin-right: 5vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .footerIcon {
+        margin-right: 5px;
+      }
+
+      a {
+        text-align: end;
+      }
+      }
+      }
+    }
+
+.priceListContent {
+  margin-top: -8vw;
+  margin-bottom: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .priceTitle {
+    font-size: 50px;
+    font-weight: 100;
+  }
+
+  .priceTable {
+    display: table;
+    border-collapse: collapse;
+    width: 903px;
+    height: 240px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 250px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    tr{
+      padding: 10px;
+      text-align: center;
+    }
+
+    tr:not(:last-of-type) {
+      border-bottom: 2px solid #BCCBFF;
+
+    }
+
+    th, td {
+      display: table-cell;
+    }
+
+    td {
+      font-weight: 100;
+    }
+
+    td:last-child{
+      font-weight: 500;
+    }
+
+    tr:not(:first-of-type):hover {
+      background: linear-gradient(to right, #FFE6E6, #D3CDF8);
+    }
+  }
+}
+
+.aboutUsContent {
+  margin-top: -8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+  .aboutUsTitle {
+    font-size: 50px;
+    font-weight: 100;
+  }
+
+  .aboutUsBox {
+    background: #FFFFFF;
+    box-shadow: 0 4px 100px rgba(157, 156, 203, 0.3);
+    border-radius: 20px;
+    width: 60%;
+    padding: 20px;
+
+    .aboutUsText {
+      text-align: center;
+      font-weight: 100;
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+}
+
+.menuDiv {
+  display: none;
+  background: linear-gradient();
+}
+
+
