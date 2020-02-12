@@ -43,8 +43,9 @@
 body {
   background-image: url("img/vectorsbackground.svg");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position-y: 423px;
   font-family: 'Roboto', sans-serif;
+  background-attachment: fixed;
   margin: 0;
   display: flex;
   flex-direction: column;
