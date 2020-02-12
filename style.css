@@ -308,7 +308,7 @@ footer .footerContacts li a {
   line-height: 35px;
 }
 .menuDarkDiv {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
