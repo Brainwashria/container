@@ -139,6 +139,7 @@ header li {
   width: 900px;
 }
 .mainContent .goodsContainer {
+  padding: 30px;
   display: flex;
   width: 70vw;
   background: #FFFFFF;
@@ -165,7 +166,6 @@ header li {
 .mainContent .goodsContainer .goodsText h2 {
   font-weight: 400;
   font-size: 30px;
-  margin-right: 30px;
 }
 .mainContent .goodsContainer .goodsText .goodsDescription {
   margin-right: 30px;
