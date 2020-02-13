@@ -289,7 +289,7 @@ footer .footerContacts li a {
   background: linear-gradient(to right, #FFE6E6, #D3CDF8);
 }
 .aboutUsContent {
-  margin-top: -25vw;
+  margin-top: -17vw;
   display: flex;
   flex-direction: column;
   justify-content: center;

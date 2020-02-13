@@ -46,6 +46,8 @@
     text-align: center;
   }
   .mainContent .goodsContainer .goodsText .goodsDescription {
+    list-style-position: inside;
+    text-align: center;
     align-self: center;
     margin-left: 25px;
   }
