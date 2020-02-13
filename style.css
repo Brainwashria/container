@@ -341,7 +341,7 @@ footer .footerContacts li a {
   align-self: flex-start;
   margin-left: 10vw;
 }
-.menuDarkDiv .menuDiv .menuList li {
+.menuDarkDiv .menuDiv .menuList .menuLinks {
   padding: 5px;
 }
 .menuDarkDiv .menuDiv h3 {
@@ -364,7 +364,7 @@ footer .footerContacts li a {
 }
 .menuDarkDiv .menuDiv .menuList .menuLinks {
   color: black;
-  font-size: 20px;
+  font-size: 145%;
   line-height: 23px;
   font-weight: 300;
   text-decoration: none;
