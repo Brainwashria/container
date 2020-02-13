@@ -240,7 +240,7 @@ footer .footerContacts li a {
 }
 .priceListContent {
   font-size: 18px;
-  margin-top: -8vw;
+  margin-top: -15vw;
   margin-bottom: 3vw;
   display: flex;
   flex-direction: column;
@@ -290,7 +290,7 @@ footer .footerContacts li a {
   background: linear-gradient(to right, #FFE6E6, #D3CDF8);
 }
 .aboutUsContent {
-  margin-top: -8vw;
+  margin-top: -25vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
