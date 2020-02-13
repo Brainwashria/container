@@ -55,6 +55,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
+  width: 100%;
+  align-self: flex-start;
 }
 header .mobileMenu {
   display: none;
@@ -192,6 +194,7 @@ footer {
   display: flex;
   margin: 0;
   justify-content: space-around;
+  align-self: flex-end;
 }
 footer .copyright {
   color: white;
