@@ -139,7 +139,7 @@ header li {
 .mainContent .goodsContainer {
   padding: 30px;
   display: flex;
-  width: 70vw;
+  width: 67%;
   background: #FFFFFF;
   box-shadow: 0 4px 50px rgba(157, 156, 203, 0.51);
   border-radius: 20px;
@@ -335,7 +335,7 @@ footer .footerContacts li a {
 }
 .menuDarkDiv .menuDiv .menuList {
   align-self: flex-start;
-  margin-left: 10vw;
+  margin-left: 10%;
 }
 .menuDarkDiv .menuDiv .menuList .menuLinks {
   padding: 5px;

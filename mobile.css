@@ -9,8 +9,8 @@
     margin: 10vw 5vw;
     flex-basis: 50%;
   }
-  header .mobileMenu .outlined {
-    width: 8vw;
+  header .mobileMenu img {
+    width: 40%;
   }
   header .menu {
     display: none;
@@ -45,8 +45,8 @@
     text-align: center;
   }
   .mainContent .goodsContainer .goodsText .goodsDescription {
-    list-style-position: inside;
-    text-align: center;
+    list-style-position: outside;
+    text-align: left;
     align-self: center;
     margin-left: 25px;
   }
