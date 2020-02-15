@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1080px) {
   body {
-    background-position-y: 557px;
+    display: flex;
   }
   header .mobileMenu {
     display: flex;
@@ -9,17 +9,16 @@
     margin: 10vw 5vw;
     flex-basis: 50%;
   }
-  header .mobileMenu img {
-    width: 45%;
+  header .mobileMenu .outlined {
+    width: 8vw;
   }
   header .menu {
     display: none;
   }
   header .logo {
     margin-left: 10vw;
-    align-self: center;
+    align-self: flex-start;
     flex-basis: 100%;
-    height: 55vw;
   }
   header .contacts {
     flex-basis: 50%;
